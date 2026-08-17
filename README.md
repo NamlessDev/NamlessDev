@@ -65,35 +65,30 @@ me.say_hi()
 
 <div align="center">
 
-<img src="https://quickchart.io/chart?bkg=transparent&width=650&height=320&c={type:'bar',data:{labels:['C','C++','Python','Java','TypeScript','JavaScript'],datasets:[{label:'Proficiency %25',data:[90,92,96,88,85,87],backgroundColor:['%23555555','%2300599C','%233776AB','%23ED8B00','%233178C6','%23F7DF1E'],borderRadius:8}]},options:{plugins:{legend:{display:false},title:{display:true,text:'Language%20Mastery%20Level',color:'%23ffffff',font:{size:18}}},scales:{y:{max:100,ticks:{color:'%23ffffff'},grid:{color:'%23333333'}},x:{ticks:{color:'%23ffffff'},grid:{display:false}}}}}" alt="language mastery chart" width="100%"/>
+<img src="https://quickchart.io/chart?bkg=transparent&width=650&height=320&c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22C%22%2C%20%22C%2B%2B%22%2C%20%22Python%22%2C%20%22Java%22%2C%20%22TypeScript%22%2C%20%22JavaScript%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Proficiency%20%25%22%2C%20%22data%22%3A%20%5B90%2C%2092%2C%2096%2C%2088%2C%2085%2C%2087%5D%2C%20%22backgroundColor%22%3A%20%5B%22%23555555%22%2C%20%22%2300599C%22%2C%20%22%233776AB%22%2C%20%22%23ED8B00%22%2C%20%22%233178C6%22%2C%20%22%23F7DF1E%22%5D%2C%20%22borderRadius%22%3A%208%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Language%20Mastery%20Level%22%2C%20%22color%22%3A%20%22%23ffffff%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2018%7D%7D%7D%2C%20%22scales%22%3A%20%7B%22y%22%3A%20%7B%22max%22%3A%20100%2C%20%22ticks%22%3A%20%7B%22color%22%3A%20%22%23ffffff%22%7D%2C%20%22grid%22%3A%20%7B%22color%22%3A%20%22%23333333%22%7D%7D%2C%20%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22%23ffffff%22%7D%2C%20%22grid%22%3A%20%7B%22display%22%3A%20false%7D%7D%7D%7D%7D" alt="language mastery chart" width="100%"/>
 
 </div>
 
-<table width="100%">
-<tr><td>
+<div align="center">
 
-**C**  
-![](https://progress-bar.dev/90/?scale=100&title=&width=400&color=555555&suffix=%25)
+![C](https://img.shields.io/badge/C-90%25-555555?style=flat-square&labelColor=1a1a1a)
+![C++](https://img.shields.io/badge/C%2B%2B-92%25-00599C?style=flat-square&labelColor=1a1a1a)
+![Python](https://img.shields.io/badge/Python-96%25-3776AB?style=flat-square&labelColor=1a1a1a)
+![Java](https://img.shields.io/badge/Java-88%25-ED8B00?style=flat-square&labelColor=1a1a1a)
+![TypeScript](https://img.shields.io/badge/TypeScript-85%25-3178C6?style=flat-square&labelColor=1a1a1a)
+![JavaScript](https://img.shields.io/badge/JavaScript-87%25-F7DF1E?style=flat-square&labelColor=1a1a1a)
 
-**C++**  
-![](https://progress-bar.dev/92/?scale=100&title=&width=400&color=00599C&suffix=%25)
+</div>
 
-**Python**  
-![](https://progress-bar.dev/96/?scale=100&title=&width=400&color=3776AB&suffix=%25)
+<br/>
 
-</td><td>
+## 💓 I'm Alive
 
-**Java**  
-![](https://progress-bar.dev/88/?scale=100&title=&width=400&color=ED8B00&suffix=%25)
+<div align="center">
 
-**TypeScript**  
-![](https://progress-bar.dev/85/?scale=100&title=&width=400&color=3178C6&suffix=%25)
+<img src="./assets/heartbeat.svg" alt="heartbeat monitor" width="100%"/>
 
-**JavaScript**  
-![](https://progress-bar.dev/87/?scale=100&title=&width=400&color=F7DF1E&suffix=%25)
-
-</td></tr>
-</table>
+</div>
 
 <br/>
 
@@ -144,7 +139,11 @@ me.say_hi()
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NamlessDev&theme=react-dark&hide_border=true&bg_color=0D1117" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NamlessDev&theme=react-dark&hide_border=true&bg_color=0D1117&hide_title=true" width="100%"/>
+
+<br/>
+
+<img src="https://ghchart.rshah.org/6C63FF/NamlessDev" alt="contribution heatmap" width="100%"/>
 
 </div>
 
