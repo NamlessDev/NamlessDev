@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="160" viewBox="0 0 850 160">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="8%" stop-color="#00FF9C" stop-opacity="1"/>
+      <stop offset="92%" stop-color="#00FF9C" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="850" height="160" rx="14" fill="#0D1117"/>
+
+  <!-- grid lines -->
+  <g stroke="#1c2530" stroke-width="1">
+    <line x1="0" y1="40" x2="850" y2="40"/>
+    <line x1="0" y1="80" x2="850" y2="80"/>
+    <line x1="0" y1="120" x2="850" y2="120"/>
+  </g>
+
+  <!-- faint background trace -->
+  <path d="M0,80 L120,80 L145,80 L160,30 L180,130 L200,80 L230,80 L720,80 L740,80 L755,30 L775,130 L795,80 L850,80"
+        fill="none" stroke="#123522" stroke-width="3"/>
+
+  <!-- animated ECG trace -->
+  <path d="M0,80 L120,80 L145,80 L160,30 L180,130 L200,80 L230,80 L720,80 L740,80 L755,30 L775,130 L795,80 L850,80"
+        fill="none" stroke="url(#fade)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
+        stroke-dasharray="180 1400" stroke-dashoffset="0">
+    <animate attributeName="stroke-dashoffset" from="1580" to="0" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- pulse dot -->
+  <circle r="5" fill="#00FF9C">
+    <animateMotion dur="3.2s" repeatCount="indefinite"
+      path="M0,80 L120,80 L145,80 L160,30 L180,130 L200,80 L230,80 L720,80 L740,80 L755,30 L775,130 L795,80 L850,80"/>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.9;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="20" y="30" font-family="Fira Code, monospace" font-size="16" fill="#00FF9C" font-weight="bold">
+    I'M ALIVE 💚 STATUS: ONLINE
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </text>
+</svg>
+
